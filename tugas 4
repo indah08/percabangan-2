@@ -1,0 +1,50 @@
+#include <iosteam>
+#inclide <String>
+
+using namespace std;
+
+int main (){
+int belanja
+int belanja_diskon = 500000
+int total_harga;
+
+cout<<"Silakan Masukan status anda:"<<endl;
+cout<<"Input  'L' (Laki-Laki) atau (Perempuan):";
+string Status;
+cin>>Status;
+cout<<"total belanja anda : ";
+cin>>belanja;
+
+if (status == "P"){
+if (belanja >= batas_diskon){
+cout<<"diskon 30%<<endl
+total_harga= belanja-(belanja*0,5);
+}
+else
+{
+cout<<"diskon 15%<<endl;
+total_harga= belanja- (belanja* 0,25);
+}
+}
+else
+{
+if (belanja >= batas_diskon){
+cout<<"diskon 15%"<<endl;
+total_harga =belanja- (belanja * 0,25)
+}
+else{
+cout<<"Diskon 10%<<endl;
+total_harga= belanja- (belanja* 0,10);
+}
+}
+cout<<"total harga yang dibayar hanya :"<<total_harga<<endl;
+
+if (Status == "P"){
+cout<<"sampai jumpa lagi!!!"<<endl;
+}
+else{
+cout<<"terimakasih"<<endl;
+}
+
+return 0;
+}
